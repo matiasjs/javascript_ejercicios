@@ -88,7 +88,7 @@ function comprobarEjercicio8() {
     try {
         const array1 = [5, 5, 1, 1, 5, 3, 2, 9];
         
-        return comprobarEjercicio8(array1) === 5;
+        return ejercicio8(array1) === 5;
     } catch (_) {
         return false;
     }
@@ -108,7 +108,7 @@ function comprobarEjercicio10() {
     try {
         const array1 = [4, 2, 1, 7];
         
-        return array1.includes(comprobarEjercicio10(array1));
+        return array1.includes(ejercicio10(array1));
     } catch (_) {
         return false;
     }
